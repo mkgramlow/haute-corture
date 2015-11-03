@@ -1,0 +1,45 @@
+/*
+Color Palette
+--------------
+Primary Color: (dark blue) #343E54
+Secondary Color: (light grey) #ACAFB0
+Accent Color: (beigey) #FDF3D6
+
+Typography
+-----------
+Headlines: font-family: 'Playfair Display', serif;
+Body Copy: font-family: 'Vollkorn', serif;
+*/
+
+
+/*background*/
+
+
+
+
+
+/* Global or Sitewide */
+
+body {
+    background: rgb(242, 214, 193);
+}
+
+
+/* Typography */
+h1, 
+h2 {
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #343E54;
+}
+
+p, blockquote {
+    font-family: 'Vollkorn', serif;    
+}
+
+blockquote {
+    font-size: 2em;
+    padding: 0 3em;
+    text-align: center;
+}
